@@ -15,7 +15,7 @@ class AdvertisementViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         if self.request.method == "GET":
             return self.queryset.select_related("created_by").prefetch_related(
-                "comments"
+                "comments__created_by"
             )
         return self.queryset
 
