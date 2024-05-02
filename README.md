@@ -63,3 +63,7 @@ This project is a Dockerized Django application with a PostgreSQL database. Foll
    ```bash
    docker-compose down
    ```
+
+## Documentation
+
+- The Swagger documentation is available at `http://localhost:8000/swagger/`.
