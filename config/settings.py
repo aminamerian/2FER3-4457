@@ -19,6 +19,8 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = env("DEBUG", default=False)
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS")
 
+APPEND_SLASH = False
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
