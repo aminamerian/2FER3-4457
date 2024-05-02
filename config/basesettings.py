@@ -38,6 +38,7 @@ INSTALLED_APPS = [
 
     # Third-party apps
     'rest_framework',
+    'drf_yasg',
 
     # Local apps
     'accounts',
